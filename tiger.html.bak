@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+	 h1{padding:5px;border-bottom : 1px solid black; 
+	 width: 600px; color:#FF6634;}
+
+        .animal{
+            width: 500px;}
+		.mm{border-bottom:1px solid black; padding:5px}
+		img{margin-top:10px;}
+    </style>
+</head>
+<body>
+    <div class="animal">
+        <h1> 호랑이 </h1>
+		<img  src="./images/tiger.jpg" alt="tiger" width="500" height="350">
+		<p> 호랑이(虎狼이) 또는 칡범, 갈범(이는 표범과 구별하여 일컫는 말입니다.)은 고양이과에 속하는 맹수입니다. 어린 개체는 개호주라 부릅니다. <br><br></p>
+		
+		<p>아름다움과 경이로움 그 자체인 호랑이는 지구상 가장 상징적인 동물 중 하나입니다. 
+		그러나 불법 밀렵과 포획, 서식지의 파괴로 야생 호랑이의 수는 20세기 초반부터 95% 이상 감소했습니다.</p><br/>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/7eHdyqEbsdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+	
+		<p style = "font-size:20px"><strong>호랑이의 서식지는 어딘가요?</strong></p><br>
+		호랑이들은 과거 아시아 전역을 아우르며 활동했지만,  현재 활동 범위는 과거의 7% 수준에 지나지 않습니다. 
+		이들은 13개국 (방글라데시, 부탄, 캄보디아, 중국, 인도, 인도네시아, 라오스, 말레이시아, 미얀마, 네팔, 러시아, 태국, 베트남)을
+		가로지르는 고립된 숲과 초원에서 힘겹게 살아가고 있습니다.
+		<br><br>
+		<p style = "font-size:20px"><strong>호랑이는 왜 멸종위기에 처했을까요?</strong></p><br>
+
+		<p><strong class = "mm">불법 밀렵과 거래</strong></p>
+		아시아 국가 일부에서 호랑이는 약용 또는 높은 신분을 과시하기 위한 상징물로 간주되어,
+		호랑이의 신체 부위들을 훼손하는 불법 밀렵과 거래가 만연하고 있습니다. 잔인한 수요를 충족시키기 위해 호랑이들은 놀라운 속도로 밀렵되고 있습니다.
+		<img  src="./images/tiger-trade.jpg" alt="tiger-trade" width="500" height="350">
+        <br>
+        <p><strong class = "mm"> 서식지 파괴</strong></p>
+        호랑이들은  과거 서식지 규모 대비 7% 이내의  제한된 땅에서 살아가고 있습니다. 도시화를 목적으로 한 도로 건설과 산림 훼손으로 호랑이들은 여러 개의 작은 땅에 흩어져 살게 되었습니다. 
+		<img  src="./images/tiger-deforestation.jpg" alt="tiger-deforestation" width="500" height="350"><br>
+		 <p><strong class = "mm">호랑이 농장</strong></p>
+        호랑이 농장은  불법 야생동물 거래를 목적으로 호랑이들을 인위적으로 번식시키는 곳입니다. 호랑이 신체 부위의 수요를 증가시키고, 호랑이 밀렵을 부추기는 역할을 하고 있습니다.
+		<img  src="./images/tiger-farm.jpg" alt="tiger-farm" width="500" height="350"><br>
+	    
+        <p><strong class = "mm"> 먹잇감 감소</strong></p>
+       기후변화와 서식지 감소는 호랑이뿐만 아니라 그 안에 살고 있는 생물종 모두에게 영향을 미칩니다. 자연에서의 먹잇감이 줄면, 호랑이들은 가축을 공격하게 될 것이고, 결국 이것은, 지역 사회와의 대립으로 번질 것입니다.<img  src="./images/tiger-footprint.jpg" alt="tiger-footprint" width="500" height="350"><br><br>
+
+		<p style = "font-size:20px"><strong>왜 호랑이가 중요할까요?</strong></p>
+	
+		호랑이는 먹이사슬의 최상위 포식자로서, 야생 동물의 개체수를 유지하며 생태계의 균형을 조절하는 역할을 합니다.<br><br>
+
+		그러나 사슴과 같은 초식동물을 먹잇감으로 삼는 호랑이가 멸종한다면, 이 초식동물은 토지를 과도하게 방목하며 손상시켜, 결과적으로 전체 생태계 균형이 깨지게 됩니다.<br><br>
+
+		인류 또한  식량, 물 등의 자연 자원을 필요로 하기 때문에 건강한 생태계에 의지하고 있습니다. 
+		호랑이를 보호함으로써 우리는 호랑이가 포함된, 즉 생태계의 수천가지 생물종을 살릴 수 있을 뿐만 아니라 그 환경을 공유하는 인간들에게도 긍정적 영향을 미칠 수 있습니다.
+		  <img  src="./images/tiger-forest.jpg"  width="500" height="350">
+		<br><br>
+		
+		
+        <input type="button" value="후원하기">
+   </div>
+ 
+</body>
+</html>

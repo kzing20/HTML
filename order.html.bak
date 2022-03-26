@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Order page </title>
+
+ <style type = "text/css">
+ fieldset {border:solid purple;}
+ </style>
+ </head>
+ <body>
+  <h2> 굿즈 주문 양식 </h2> 
+  <form action>
+  <fieldset>
+  <legend> 주문서 </legend>
+  <table border = "1">
+  <tbody>
+  <tr>
+   <th> 굿즈 </th>
+   <th> 가격 </th>
+   <th> 수량 </th>
+   <th> 합계 </th>
+ </tr>
+<tr>
+   <td> 내셔널지오그래픽 '그린티 컬렉션' </td>
+   <td> 15,000원 </td>
+   <td> <input id = "goods1" type ="text" size = "2" value = "0" onclick = "this.select();"> </td>
+   <td><input id = "goods1Total" type ="text" size = "6" value = "0" ><span> 원</span></td>
+ </tr>
+ <tr>
+   <td> 점박이물범 굿즈 </td>
+   <td> 7,000원 </td>
+   <td> <input id = "goods2" type ="text" size = "2" value = "0" onclick = "this.select();"> </td>
+   <td><input id = "goods2Total" type ="text" size = "6" value = "0" ><span> 원</span></td>
+ </tr>
+ <tr>
+   <td> 야생동물은내친구 공책 만들기 </td>
+   <td> 8,000원 </td>
+   <td> <input id = "goods3" type ="text" size = "2" value = "0" onclick = "this.select();"> </td>
+   <td><input id = "goods3Total" type ="text" size = "6" value = "0" ><span> 원</span></td>
+ </tr>
+ <tr>
+   <td> 사라져가는 야생동물자석  </td>
+   <td> 5,000원 </td>
+   <td> <input id = "goods4" type ="text" size = "2" value = "0" onclick = "this.select();"> </td>
+   <td><input id = "goods4Total" type ="text" size = "6" value = "0" ><span> 원</span></td>
+ </tr>
+ <tr>
+   <td> 합계</td>
+   <td> &nbsp; </td>
+   <td> <input id = "totalNumber" type ="text" size = "2" value = "0" > </td>
+   <td><input id = "totalPrice" type ="text" size = "6" value = "0" ><span> 원</span></td>
+ </tr>
+
+ </fieldset>
+ </tbody>
+ </table>
+ <br>
+ <input type = "button" value = "합계계산" onclick = "updateAll();">
+ <input type = "reset" value = "초기화"></form>
+ <script type = "text/javascript">
+ function updateAll() {
+	var n1  = document.getElementById("goods1").value;
+	var n2  = document.getElementById("goods2").value;
+	var n3  = document.getElementById("goods3").value;
+	var n4  = document.getElementById("goods4").value;
+
+	var p1 = 15000* n1;
+	var p2 = 7000* n2;
+	var p3 = 8000* n3;
+	var p4 = 25000* n4;
+	document.getElementById("goods1Total").value= p1;
+	document.getElementById("goods2Total").value= p2;
+	document.getElementById("goods3Total").value= p3;
+	document.getElementById("goods4Total").value= p4;
+
+	var totalNumber = parseInt(n1) + parseInt(n2) + parseInt(n3) + parseInt(n4);
+	document.getElementById("totalNumber").value = totalNumber;
+	var totalPrice = p1  + p2 + p3 + p4;
+	document.getElementById("totalPrice").value = totalPrice;
+	}
+
+ </script>
+ </body>
+</html>

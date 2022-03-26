@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+    <style type = "text/css">
+  #content{ padding:10px; }
+  #bigImages{margin-bottom:10px;}
+  #big{width:530px; height:470px}
+  .small{width:100px; height:100px;}
+ </style> 
+ </head>
+ <body>
+ 	<h3>점박이물범 굿즈 </h3>
+  <div id = "bigImages">
+	<img id ="big" src = "./images/seal.jpeg">
+	</div>
+	<div id ="smallImages">
+	<img class = "small" src = "./images/seal.jpeg">
+	<img class = "small" src = "./images/seal2.jpeg">
+	<img class = "small" src = "./images/seal3.jpeg">
+	<img class = "small" src = "./images/seal4.jpg">
+	<img class = "small" src = "./images/seal5.jpeg">
+	</div>
+
+	
+	<script type = "text/javascript">
+		var bigPic = document.querySelector("#big");
+		var smallPics = document.querySelectorAll(".small");
+
+		for (var i = 0; i<smallPics.length ;i++ )
+		{
+			smallPics[i].addEventListener("click", changepic);
+		}
+		function changepic(){
+			var smallPicAttribute = this.getAttribute("src");
+			bigPic.setAttribute("src", smallPicAttribute);
+		}
+
+	</script>
+ </body>
+</html>

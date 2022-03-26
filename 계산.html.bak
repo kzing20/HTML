@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <script type="text/javascript">
+  function Display_num() {
+    //대입 숫자
+    var num1=document.getElementById("num1").value;
+    var num2=document.getElementById("num2").value;
+    var num3=document.getElementById("num3").value;
+
+    //연산자
+    var operation1=document.getElementById("operation1").value;
+    var operation2=document.getElementById("operation2").value;
+    //결과값 넣기
+    document.getElementById("is_nums").innerHTML =eval(num1+operation1+num2+operation2+num3);
+
+
+  }
+</script>
+
+
+<input type="text" id="num1" style="width:70px;" value="" />
+<select id="operation1" style="width:70px;">
+<option value=''>연산</option>
+<option value='*'>곱하기</option>
+<option value='/'>나누기</option>
+<option value='+'>더하기</option>
+<option value='-'>빼기</option>
+</select>
+<input type="text" id="num2" style="width:70px;" value="" />
+<select id="operation2" style="width:70px;">
+<option value=''>연산</option>
+<option value='*'>곱하기</option>
+<option value='/'>나누기</option>
+<option value='+'>더하기</option>
+<option value='-'>빼기</option>
+</select>
+<input type="text" id="num3" style="width:70px;" value="" />
+
+
+<br />
+<br />
+<br />
+<div id="is_nums">계산 결과</div>
+<br />
+<a href="#" onclick="Display_num();return false;">계산하기</a>
+ </body>
+</html>

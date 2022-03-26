@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>계산기</title>
+</head>
+<body>
+<script type="text/javascript">
+    function cal() {
+    var langSelect = document.getElementById("exp");  
+    var text = langSelect.options[langSelect.selectedIndex].text; 
+    var a = document.getElementById("op1").value;
+    var b = document.getElementById("op2").value;
+    switch (text){
+        case "+":
+            document.getElementById("result").value =                           parseInt(a)+parseInt(b); break;
+        case "-":
+            document.getElementById("result").value =                           parseInt(a)-parseInt(b); break;
+        case "*":
+            document.getElementById("result").value =                           parseInt(a)*parseInt(b); break;
+        case "/":
+            document.getElementById("result").value =                           parseInt(a)/parseInt(b); break;
+        default: 
+        document.getElementById("result").value =                           " "; break;
+    }
+     
+    
+    }
+</script>
+<form>
+<input id="op1" type="text" size="2"/>
+<select id = "exp" name="ex" size="1" >
+<option value="add" >+</option>
+<option value="subs">-</option>
+<option value="mul">*</option>
+<option value="div">/</option> 
+
+</select>
+<input id="op2" type="text" size="2"/>
+<input type="button" value="=" onclick="cal();"/>
+<input id="result" type="text" size="2"/>
+</form>
+</body>
+</html>
+

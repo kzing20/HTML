@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page</title>
+    <!-- 외부 스타일시트 적용 -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <img id ="p" src="./images/logo.png" alt="logo" width="80" height="80">
+            <a href="index.html">About Endangered Species</a>
+			<span class = "right">
+			<a href ="login.html" target ="iframe1">로그인</a>
+			<p style = "display:inline;"> | </p>
+			<a href ="signup.html" target ="_blank">회원가입</a>
+			</span> 
+        </h1>
+		 <div id = "r">
+            <script type="text/javascript" src="index.js"></script>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://www.yna.co.kr/view/AKR20210531084200054?input=1195m" target = "_blank">News</a></li>
+            <li><a href="goods.html" target = "_blank">Goods</a></li>
+            <li><a href="order.html" target = "_blank">Order</a></li>
+            <li><a href="address.html" target = "_blank">Address</a></li>
+        </ul>
+    </nav>
+    <aside id="left">
+        <h4 style ="margin-bottom:10px"><strong> Categories </strong></h4>
+        <ul>
+            <li><a href="./panda.html" target="iframe1">자이언트 판다</a></li>
+            <li><a href="./turtle.html" target="iframe1">바다거북</a></li>
+            <li><a href="./bear.html" target="iframe1">반달가슴곰</a></li>
+            <li><a href="./tiger.html" target="iframe1">호랑이</a></li>
+            <li><a href="./polar_bear.html" target="iframe1">북극곰</a></li>
+            <li><a href="./dolphin.html" target="iframe1">바키타돌고래</a></li>
+            <li><a href="./leopard.html" target="iframe1">눈표범</a></li>
+            <li><a href="./elephant.html" target="iframe1">아시아코끼리</a></li>
+        </ul>
+    </aside>
+    <section id="main">
+        <article>
+            <iframe name="iframe1" src="panda.html" frameborder="0" width="750" height="900"></iframe>			
+      </article>
+    </section>
+    <aside id="right">
+	<a href="./sponsor.html" target="_blank">
+		<img  src="./images/spon.jpg" alt="sponsor" width="250" height="220"></a>
+		<a href="./sponsor.html" target="_blank">
+        <img  src="./images/spon2.jpg" alt="sponsor" width="250" height="220"></a>
+    </aside>
+    <footer>
+        Copyright & copy; 2021 kjy
+    </footer>
+    
+</body>
+</html>

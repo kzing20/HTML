@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>나만의 웹사이트 만들기</title>
+  <link rel="stylesheet" type="text/css" href="index.css"/>
+
+</head>
+<body>
+   <h2>
+	<img src="./images/logo.png"  width="100" height="100">
+	<a href="myweb.html">멸종위기 동물</a>
+  </h2>
+ <script type="text/javascript" src="index.js">
+</script>
+</body>
+</html>
+

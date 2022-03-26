@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+	 h1{padding:5px;border-bottom : 1px solid black; 
+	 width: 600px; color:#FF6634;}
+
+        .animal{
+            width: 500px;}
+		.mm{border-bottom:1px solid black; padding:5px}
+		img{margin-top:10px;}
+    </style>
+</head>
+<body>
+    <div class="animal">
+        <h1> 아시아코끼리 </h1>
+		<img  src="./images/elephant-1.jpg" alt="elephant-1" width="500" height="350">
+		
+		<p>미얀마에 서식하고 있는 아시아코끼리는 나이와 상관없이 가죽과 신체 부위를 탐하는 밀렵의 위협에 직면해 있습니다. 
+		2017년 1월 이후 코끼리 밀렵 비율은 이제까지 평균 수치를 넘어섰으며, 2,000여 마리의 야생 아시아코끼리가 서식하는 미얀마에서는 코끼리를 보호하기 위한 즉각적인 조치가 필요합니다.<br/><br/>
+
+		2013년 이후 110마리의 코끼리가 사살되었는데, 특히, 무력 충돌이 잦은데다 무법지대로 알려진 바고 요마(Bago Yoma) 
+		산맥과 에야와디(Ayeyarwady) 삼각주에서 주로 밀렵이 자행되어 왔습니다. 두 지역은 야생 코끼리의 주요 서식지이며, 
+		이 같은 속도라면 이 지역에서 야생 코끼리는 1-2년 내 사라질 수도 있습니다.<br/><br/>
+
+		WWF 아시아 생물종 프로그램을 담당하고 있는 니랑가 제이어싱(Nilanga Jayasinghe)은 “아시아코끼리는 이미 엄청난 위협에 처해 있다.
+		뿐만 아니라 미얀마에서 코끼리 가죽을 얻기 위해 코끼리를 무차별적으로 행해지는 밀렵 행위가 지속적으로 발견되고 있다.
+		이는 굉장히 우려스러운 상황이며 즉각적인 보호 조치를 취해야 한다.”고 밝혔습니다.
+		</p><br/>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/J1t-B3By-Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+
+		<p style = "font-size:20px"><strong>아시아코끼리의 특징</strong></p><br>
+		보통은 아프리카코끼리에 비하여 몸집이 작지만, 여전히 육상 포유류 가운데에서는 둘째가는 크기입니다. 
+		정수리에서 재었을 때 체고가 가장 높으며 등은 볼록하거나 평평한 형태를 띠고 있습니다. 
+		상대적으로 작은 귀는 등에서 목을 따라 비스듬하게 붙어 있습니다.
+		갈비뼈는 20쌍이고, 꼬리등뼈는 34개입니다. 아프리카코끼리에 비해서는 발이 더 뾰족하고 윤곽이 뚜렷하게 보이는 편으로 앞발은 발가락이 5개이고 뒷발은 4개입니다.
+		<img  src="./images/ElephantSkelLyd2.png" alt="ElephantSkelLyd2" width="500" height="350">
+		<br><br>
+	
+		<img  src="./images/elephant-2.jpg" alt="elephant-2" width="500" height="700">
+		<p style = "font-size:20px"><strong>아시아코끼리가 닥친 새로운 위협</strong></p><br>
+		<p>야생에 서식하는 아시아코끼리의 숫자는 50,000마리 이하이며, 미얀마에는 2,000마리가 되지 않습니다. 
+		수십년 동안 아시아코끼리는 서식지 감소, 인간과 코끼리 간의 갈등, 밀렵의 위협을 겪었으며,
+		최근에는 상아 이외의 신체 부위를 노리는 밀렵에도 노출되어 있습니다. 참고로 아시아코끼리 수컷에만 상아가 있으며, 
+		미얀마의 수컷 코끼리 중에서는 1% 만이 상아를 가지고 있습니다.</p>
+
+		<p>코끼리 가죽은 말려서 판매되며 다른 재료와 섞어 건성 피부를 위한 스킨 크림과 위장병 치료약으로 사용됩니다.
+		또한 가죽은 행운의 팔찌로 판매되는 구슬을 연마하는데 이용되며, 꼬리털은 행운을 부르는 은반지로 만들어집니다. 
+		코끼리 이빨은 점과 염증을 완화하는 파우더의 주 원료로 사용됩니다. 코끼리로 만든 상품은 대부분 중국, 라오스, 태국의 접경지역이나 미얀마에서 거래되고 있습니다.</p>
+		<img  src="./images/elephant-3.jpg" alt="elephant-3" width="500" height="350">
+		<br/><br/>
+	   
+		
+        <input type="button" value="후원하기">
+   </div>
+ 
+</body>
+</html>
+
